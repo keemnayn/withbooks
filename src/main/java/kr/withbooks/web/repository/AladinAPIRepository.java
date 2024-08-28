@@ -16,7 +16,7 @@ public class AladinAPIRepository {
     private static String apiUrl;
 
     // final 변수
-    private static final String PRE_URL = "http://www.aladdin.co.kr/ttb/api/";
+    private static final String PRE_URL = "http://www.aladin.co.kr/ttb/api/";
 	private static final String SUF_URL = ".aspx?";
 
 	public static final String Item_List= "ItemList";
