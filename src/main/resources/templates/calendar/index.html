@@ -4,7 +4,8 @@
 <head>
   <meta charset='utf-8'/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>위드북스</title>  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+  <title>위드북스</title>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
   <script defer src="/js/calendar/index.js"></script>
   <script defer src="/js/calendar/tmp.js"></script>
 
@@ -24,7 +25,7 @@
       <li><a id="debate" th:href="@{/debate/list(m=3,wid=${param.wid})}">토론서재</a></li>
       <li class="active"><a id="calendar" th:href="@{/calendar/index(m=3,wid=${param.wid})}">모임일정</a></li>
       <li><a id="board" th:href="@{/free-board/list(m=3,wid=${param.wid},p=1,s='latest')}">자유게시판</a></li>
-      <li><a>위드맴버</a></li>
+      <li><a>위드멤버</a></li>
     </ul>
   </div>
   <!-- calendar -->
