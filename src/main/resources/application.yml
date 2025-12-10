@@ -11,8 +11,8 @@ spring:
   application:
     name: withbooks
 
-
-
+server:
+  port: ${PORT:8080}
 
 fileupload:
   contextPath: /home/withbooks/webapps/image/
